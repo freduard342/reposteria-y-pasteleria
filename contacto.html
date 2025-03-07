@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pastelería - Contacto</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Pastelería - Contacto</h1>
+        <img id="logo" src="logo dulce tentacion.png" alt="Logo de la pastelería">
+    </header>
+
+    <!-- Formulario de Búsqueda -->
+    <form action="menu.html" method="get" class="search-form">
+        <input type="text" name="search" placeholder="Buscar postre..." class="search-input">
+        <button type="submit">Buscar</button>
+    </form><br>
+
+    <nav>
+        <a href="inicio.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="contacto">
+            <h1>Contacto📞</h1>
+            <p>Teléfono: 829-325-1764</p>
+            <p>Correo: Pasteleria.dulcetentacion@gmail.com</p>
+            <p>Ubicación: Calle Dulce, 123, Ciudad Pastel</p>
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section id="formulario-contacto">
+            <h2>Envíanos tu mensaje</h2>
+            <form action="enviar_mensaje.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje aquí..."></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;  Mi Pastelería</p>
+    </footer>
+</body>
+</html>
